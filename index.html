@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
@@ -9,17 +9,22 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <h1>Hello!</h1>
     <h1>I'm Julie Bowers.</h1>
     <h1>Come on in and take a look at my works.</h1>
 
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Resources</a></li>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact</a>
+        </li>
+        <li>
+          <a href="#deployed-works">Resources</a>
+        </li>
       </ul>
     </nav>
 
@@ -27,14 +32,39 @@
 
   <main>
 
+    <section id="about-me" class="about-me">
+      <h2>About Me</h2>
+    </section>
 
+    <section id="contact-me" class="contact-me">
+      <h2>Contact Me</h2>
+    </section>
+
+    <section id="deployed-works" class="deployed-works">
+      <h2>Work</h2>
+      <div id="card-1" class="card">
+        <h4>box 1</h4>
+      </div>
+      <div class="card">
+        <h4>box 2</h4>
+      </div>
+      <div class="card">
+        <h4>box 3</h4>
+      </div>
+      <div class="card">
+        <h4>box 4</h4>
+      </div>
+      <div class="card">
+        <h4>box 5</h4>
+      </div>
+    </section>
   </main>
 
   <footer>
 
 
   </footer>
-  <script src="script.js"></script>
+  <script src="./assets/javascripts/script.js"></script>
 
 </body>
 </html>

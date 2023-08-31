@@ -1,14 +1,39 @@
+/* Set the default box size, padding, and margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set the background color of the screen */
+body {
+    background-color: #d9dcd6;
+    /*background-image: url("../images/pexels-burst-544967.jpg");*/
+
+}
+
+/* Set the font color to white and the text decoration to non
+    for the navigation links in the header */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
 /*Style the header by adding padding, fonts, background color, and text color.*/
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: "Century Schoolbook", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*background-color: #2a607c;*/
+    color: #white;
+    background-image: url("../images/pexels-burst-544967.jpg");
 
     /*Style the h1 tag as a block and specifies the font size*/
     > h1 {
         display: inline-block;
-        font-size: 48px;
+        font-size: 30px;
     }
 
     /*Style the navigation links*/
@@ -26,6 +51,24 @@
                 display: inline-block;
                 margin-left: 25px;
             }
+        }
+    }
+
+    .deployed-works {
+        display: flex;
+
+    }
+
+    card {
+        display: inline-flex;
+        height: 400px;
+        width: 200px;
+        border: black;
+        border-style: solid;
+        > .card-1 {
+            display: block;
+            height: 400px;
+            width: 100%;
         }
     }
 }
