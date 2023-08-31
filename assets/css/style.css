@@ -1,0 +1,31 @@
+/*Style the header by adding padding, fonts, background color, and text color.*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+
+    /*Style the h1 tag as a block and specifies the font size*/
+    > h1 {
+        display: inline-block;
+        font-size: 48px;
+    }
+
+    /*Style the navigation links*/
+    > nav {
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+
+        > ul {
+            list-style-type: none;
+
+            > li {
+                display: inline-block;
+                margin-left: 25px;
+            }
+        }
+    }
+}
