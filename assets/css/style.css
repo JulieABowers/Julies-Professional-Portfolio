@@ -7,33 +7,23 @@
 
 /* Set the background color of the screen */
 body {
-    background-color: #d9dcd6;
-    /*background-image: url("../images/pexels-burst-544967.jpg");*/
-
-}
-
-/* Set the font color to white and the text decoration to non
-    for the navigation links in the header */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-h1 {
+    background-color: black;
     color: white;
+
 }
-/*Style the header by adding padding, fonts, background color, and text color.*/
+
+/*Style the header by adding padding, fonts, background image, and text color.*/
 .header {
     padding: 20px;
     font-family: "Century Schoolbook", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*background-color: #2a607c;*/
-    color: #white;
+    color: white;
     background-image: url("../images/pexels-burst-544967.jpg");
+    height: 130px;
 
     /*Style the h1 tag as a block and specifies the font size*/
     > h1 {
-        display: inline-block;
-        font-size: 30px;
+        display: block;
+        font-size: 20px;
     }
 
     /*Style the navigation links*/
@@ -53,22 +43,60 @@ h1 {
             }
         }
     }
+}
 
-    .deployed-works {
-        display: flex;
+/* Set the font color to white and the text decoration to none
+    for the navigation links in the header */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
+h1 {
+    color: white;
+}
+
+.section-title {
+    display: flex;
+    padding: 0 0 0 1em;
+}
+/*
+.deployed-works {
+    display: flex;
+    padding: 0 0 0 1em;
+
+    > .card-2 {
+        display: inline;
     }
+}
+*/
+p {
+    padding: 15px 0 0 5em;
+}
 
-    card {
-        display: inline-flex;
-        height: 400px;
+.title-container {
+    /*padding: top left bottom right*/
+    width: 100%;
+    padding: 30px 10px 10px 10px;
+
+    > h2 {
+        border-right: solid thin;
         width: 200px;
-        border: black;
-        border-style: solid;
-        > .card-1 {
-            display: block;
-            height: 400px;
-            width: 100%;
-        }
+        /*float: right;*/
     }
+}
+
+.contact-me {
+    > .contact-info {
+        display: inline;   
+    }
+}
+
+.main-project {
+    height: 350px;
+    width: 800px;
+}
+
+.card-2 {
+    display: inline;
 }
